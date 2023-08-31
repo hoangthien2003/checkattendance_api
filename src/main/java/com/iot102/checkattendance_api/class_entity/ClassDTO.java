@@ -24,9 +24,6 @@ public class ClassDTO {
     @Column(name = "ClassID", nullable = false)
     private String classID;
 
-    @Column(name = "Room", nullable = true)
-    private int room;
-
     @Column(name = "SubjectID", nullable = true)
     private String subjectID;
     
